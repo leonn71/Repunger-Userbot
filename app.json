@@ -1,9 +1,9 @@
 {
-  "name": "𝗜𝗫𝗔𝗟𝗟-Userbot",
-  "description": "-𝗕𝗬 @jPipis on telegram-",
-  "logo": "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg",
-  "keywords": ["telegram", "userbot", "ixall-Userbot", "modular", "python"],
-  "repository": "https://github.com/ixally/Kazu-Userbot",
+  "name": "𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+  "description": "𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𝗕𝘆 @Muutya",
+  "logo": "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg",
+  "keywords": ["telegram", "userbot", "Mutya-Userbot", "modular", "python"],
+  "repository": "https://github.com/mutyya/Mutya-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
