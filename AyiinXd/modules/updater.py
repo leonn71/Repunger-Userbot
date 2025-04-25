@@ -130,7 +130,7 @@ async def upstream(event):
         xx = await eor(event, get_string("upd_1"))
     conf = event.pattern_match.group(1).strip()
     off_repo = b64decode(
-        "aHR0cHM6Ly9naXRodWIuY29tL2l4YWxseS9LYXp1LVVzZXJib3Q="
+        "aHR0cHM6Ly9naXRodWIuY29tL211dHl5YS9NdXR5YS1Vc2VyYm90"
     ).decode("utf-8")
     force_update = False
     try:
@@ -209,9 +209,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  »  **Perintah :** `{cmd}update`\
-        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru 𝗜𝗫𝗔𝗟𝗟-Userbot.\
+        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru 𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
         \n\n  »  **Perintah :** `{cmd}update deploy`\
-        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari 𝗜𝗫𝗔𝗟𝗟-Userbot.\
+        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari 𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\
     "
     }
 )
