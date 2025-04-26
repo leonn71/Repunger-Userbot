@@ -85,7 +85,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/mutyya/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -251,17 +251,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg")
+              or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg")
+              or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg")
+             or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
 
 DEFAULT = list(map(int, b64decode("Njk0NzQ5OTIyOQ==").split()))
 
@@ -462,8 +462,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg",
-                    "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg",
+                    "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
+                    "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
                 ]
         )
         cmd = CMD_HANDLER
