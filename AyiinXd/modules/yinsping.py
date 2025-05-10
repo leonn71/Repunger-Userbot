@@ -26,28 +26,28 @@ from .ping import get_readable_time
 
 absen = [
     "**𝙃𝙖𝙙𝙞𝙧 𝙙𝙤𝙣𝙜 𝙏𝙤𝙙** 😁",
-    "**𝙃𝙖𝙙𝙞𝙧 𝙆𝙖𝙠𝙖 𝙂𝙖𝙣𝙩𝙚𝙣𝙜** 😉",
+    "**HADIR MEK** 😉",
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘾𝙤𝙣𝙩𝙤𝙡** 😁",
-    "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝙂𝙖𝙣𝙩𝙚𝙣𝙜** 🥵",
+    "**hadir sayang** 🥵",
     "**𝙃𝙖𝙙𝙞𝙧 𝙉𝙜𝙖𝙗** 😎",
-    "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘼𝙗𝙖𝙣𝙜** 🥺",
-    "**𝙎𝙞 𝘾𝙖𝙠𝙚𝙥 𝙃𝙖𝙙𝙞𝙧 𝘽𝙖𝙣𝙜** 😎",
+    "**apa mutya imut** 🥺",
+    "**apa lo manggil** 😎",
     "**Hadir kak maap telat** 🥺",
     "**Hadir Tuan** 🙏🏻",
     "**Hadir Majikan** 🙏🏻",
     "**Hadir Sayang** 😳",
-    "**Hadir Bro Kazu** 😁",
-    "**Maaf ka habis nemenin ka Kazu** 🥺",
-    "**Maaf ka habis disuruh Tuan Kazu** 🥺🙏🏻",
-    "**Hadir Kazu Sayang** 😘",
-    "**Hadir Kazu Akuuuuhhh** ☺️",
-    "**Hadir Kazu brother Aku** 🥰",
+    "**Hadir muttt** 😁",
+    "**Maaf ka habis nemenin ka mutya** 🥺",
+    "**Maaf ka habis disuruh nona mutya** 🥺🙏🏻",
+    "**Hadir mutya Sayang** 😘",
+    "**Hadir mutua Akuuuuhhh** ☺️",
+    "**Hadir mutya sayang Aku** 🥰",
 ]
 
 kazucakep = [
-    "**𝙄𝙮𝙖 Kazu 𝙂𝙖𝙣𝙩𝙚𝙣𝙜 𝘽𝙖𝙣𝙜𝙚𝙩** 😍",
-    "**𝙂𝙖𝙣𝙩𝙚𝙣𝙜𝙣𝙮𝙖 𝙂𝙖𝙠 𝘼𝙙𝙖 𝙇𝙖𝙬𝙖𝙣** 😚",
-    "**𝙆𝙖𝙢𝙪 𝙂𝙖𝙣𝙩𝙚𝙣𝙜𝙣𝙮𝙖 𝘼𝙠𝙪 𝙆𝙖𝙣 Zu** 😍",
+    "**𝙄𝙮𝙖 mutya cantik 𝘽𝙖𝙣𝙜𝙚𝙩** 😍",
+    "**cantiknya gada lawan coi** 😚",
+    "**iya ajg lu cakep mut** 😍",
     "**𝙄𝙮𝙖𝙖 𝙜𝙖𝙙𝙖 𝙖𝙙𝙖 𝙨𝙖𝙞𝙣𝙜** 😎",
     "**𝙆𝙖𝙢𝙪 𝙅𝙖𝙢𝙚𝙩 𝙏𝙖𝙥𝙞 𝘽𝙤𝙤𝙣𝙜** 😚",
 ]
@@ -60,7 +60,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**㋡ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ㋡**\n\n㋡ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋡ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋡ **ᴏᴡɴᴇʀ :** `{}`\n㋡ **ɪᴅ :** `{}`"
+    message = "**㋡ 𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 ㋡**\n\n㋡ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋡ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋡ **ᴏᴡɴᴇʀ :** `{}`\n㋡ **ɪᴅ :** `{}`"
     await ping.reply(message.format(duration, uptime, user.first_name, user.id)
                      )
 
@@ -79,7 +79,7 @@ async def kazuabsen(ganteng):
 async def naya(naya):
     await naya.reply("**Naya Punya Nya Kynan**🤩")
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Aku cantik kan$")
 async def kazu(ganteng):
     await ganteng.reply(choice(kazucakep))
 
