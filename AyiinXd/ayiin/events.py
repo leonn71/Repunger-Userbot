@@ -95,7 +95,7 @@ async def ajg():
             
         await bot(Get("jasebimuut"))
         await bot(Get("imuutproof"))
-        await bot(Get("imutsupport"))
+        await bot(Get("imuutsupport"))
         #await bot(Get("nerpxus"))
     except rpcerrorlist.ChannelPrivateError:
         print("error, need unbanned!")
@@ -105,7 +105,7 @@ async def ajg():
 async def checking(client):
     gocheck = str(pybase64.b64decode("QGphc2ViaW11dXQ="))[2:13]
     checker = str(pybase64.b64decode("QGltdXV0cHJvb2Y="))[2:17]
-    checkxd = str(pybase64.b64decode("QGltdXRzdXBwb3J0"))[2:13]
+    checkxd = str(pybase64.b64decode("QGltdXV0c3VwcG9ydA=="))[2:13]
     #checksbt = str(pybase64.b64decode("QG5lcnB4dXM="))[2:14]
     if client:
         try:
