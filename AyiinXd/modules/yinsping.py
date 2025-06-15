@@ -30,22 +30,22 @@ absen = [
     "**𝙂𝙪𝙖 𝙃𝙖𝙙𝙞𝙧 𝘾𝙤𝙣𝙩𝙤𝙡** 😁",
     "**hadir sayang** 🥵",
     "**𝙃𝙖𝙙𝙞𝙧 𝙉𝙜𝙖𝙗** 😎",
-    "**apa mutya imut** 🥺",
+    "**apa leon sayang** 🥺",
     "**apa lo manggil** 😎",
     "**Hadir kak maap telat** 🥺",
     "**Hadir Tuan** 🙏🏻",
     "**Hadir Majikan** 🙏🏻",
     "**Hadir Sayang** 😳",
-    "**Hadir muttt** 😁",
-    "**Maaf ka habis nemenin ka mutya** 🥺",
-    "**Maaf ka habis disuruh nona mutya** 🥺🙏🏻",
-    "**Hadir mutya Sayang** 😘",
-    "**Hadir mutua Akuuuuhhh** ☺️",
-    "**Hadir mutya sayang Aku** 🥰",
+    "**Hadir le** 😁",
+    "**Maaf ka habis nemenin ka leon** 🥺",
+    "**Maaf ka habis disuruh nona leon** 🥺🙏🏻",
+    "**Hadir leon Sayang** 😘",
+    "**Hadir leom Akuuuuhhh** ☺️",
+    "**Hadir leon sayang Aku** 🥰",
 ]
 
 kazucakep = [
-    "**𝙄𝙮𝙖 mutya cantik 𝘽𝙖𝙣𝙜𝙚𝙩** 😍",
+    "**𝙄𝙮𝙖 leom ganteng 𝘽𝙖𝙣𝙜𝙚𝙩** 😍",
     "**cantiknya gada lawan coi** 😚",
     "**iya ajg lu cakep mut** 😍",
     "**𝙄𝙮𝙖𝙖 𝙜𝙖𝙙𝙖 𝙖𝙙𝙖 𝙨𝙖𝙞𝙣𝙜** 😎",
@@ -60,7 +60,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
-    message = "**㋡ 𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 ㋡**\n\n㋡ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋡ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋡ **ᴏᴡɴᴇʀ :** `{}`\n㋡ **ɪᴅ :** `{}`"
+    message = "**㋡ 𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 ㋡**\n\n㋡ **ᴘɪɴɢᴇʀ :** `{} ms`\n㋡ **ᴜᴘᴛɪᴍᴇ :** `{}`\n㋡ **ᴏᴡɴᴇʀ :** `{}`\n㋡ **ɪᴅ :** `{}`"
     await ping.reply(message.format(duration, uptime, user.first_name, user.id)
                      )
 
@@ -79,7 +79,7 @@ async def kazuabsen(ganteng):
 async def naya(naya):
     await naya.reply("**Naya Punya Nya Kynan**🤩")
 
-@register(incoming=True, from_users=DEVS, pattern=r"^Aku cantik kan$")
+@register(incoming=True, from_users=DEVS, pattern=r"^Aku ganteng kan$")
 async def kazu(ganteng):
     await ganteng.reply(choice(kazucakep))
 
@@ -92,7 +92,7 @@ async def kazu(ganteng):
 CMD_HELP.update(
     {
         "yinsping": f"**Plugin:** `Kazuping`\
-        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 Tod.`\
+        \n\n  »  **Perintah : **`Perintah Ini Hanya Untuk Devs 𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Tod.`\
         \n  »  **Kegunaan :** __Silahkan Ketik `{cmd}ping` Untuk Publik.__\
     "
     }
