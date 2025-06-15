@@ -586,20 +586,20 @@ async def _(ayiin):
 async def fonts(yins):
     ayiin = await edit_or_reply(yins,
                                 "**style fonts.**\n\n"        
-                                "**• smallcap     > ᴍᴜᴛʏᴀ**\n"
-                                "**• monospace    > 𝚖𝚞𝚝𝚢𝚊**\n"
-                                "**• outline      > 𝕞𝕦𝕥𝕪𝕒**\n"
-                                "**• script       > 𝓂𝓊𝓉𝓎𝒶**\n"
-                                "**• blackbubbles > 🅜︎🅤︎🅣︎🅨︎🅐︎**\n"
-                                "**• bubbles      > Ⓜ︎Ⓤ︎Ⓣ︎Ⓨ︎Ⓐ︎**\n"
-                                "**• bold         > 𝗺𝘂𝘁𝘆𝗮**\n"
-                                "**• bolditalic   > 𝙢𝙪𝙩𝙮𝙖**\n\n"
-                                "**𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁!**")
+                                "**• smallcap     > ʟᴇᴏɴ**\n"
+                                "**• monospace    > 𝚕𝚎𝚘𝚗**\n"
+                                "**• outline      > 𝕝𝕖𝕠𝕟**\n"
+                                "**• script       > 𝓁ℯℴ𝓃**\n"
+                                "**• blackbubbles > 🅛︎🅔︎🅞︎🅝︎**\n"
+                                "**• bubbles      > Ⓛ︎Ⓔ︎Ⓞ︎Ⓝ︎**\n"
+                                "**• bold         > 𝗹𝗲𝗼𝗻**\n"
+                                "**• bolditalic   > 𝙡𝙚𝙤𝙣**\n\n"
+                                "**𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁!**")
 
 
 CMD_HELP.update(
     {
-        "yinsfont": f"**Plugin : **`imutfont`\
+        "yinsfont": f"**Plugin : **`leonfont`\
         \n\n  »  **Perintah :** `{cmd}font` `<nama font>` `<teks/balas ke pesan>`\
         \n  »  **Kegunaan : **Membuat Text dengan Fonts Style.\
         \n\n  »  **Perintah :** `{cmd}lf`\
