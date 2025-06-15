@@ -18,8 +18,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\n𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {} Copyright © 2021-2025 MUTYAUSERBOT• <https://github.com/mutyya/Mutya-Userbot>"
-MSG_BLACKLIST = "𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁{}\nCopyright © 2021-2025 MUTYAUSERBOT• <https://github.com/mutyya/Mutya-Userbot>"
+EOL = "EOL\n𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {} Copyright © 2021-2025 REPUNGERUSERBOT• <https://github.com/leonn71/Repunger-Userbot>"
+MSG_BLACKLIST = "𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁{}\nCopyright © 2021-2025 REPUNGERUSERBOT• <https://github.com/leonn71/Repunger-Userbot>"
 
 
 async def ayiin_client(client):
