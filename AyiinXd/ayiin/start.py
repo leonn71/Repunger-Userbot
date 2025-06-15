@@ -18,10 +18,10 @@ async def startupmessage():
         if BOTLOG:
             await tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
-                caption="𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
-                buttons=[(Button.url("Store", "https://t.me/jasebimuut")),
-                         (Button.url("Support", "https://t.me/imutsupport"))]
+                "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg",
+                caption="𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
+                buttons=[(Button.url("Store", "https://t.me/rekberrimut")),
+                         (Button.url("Proof", "https://t.me/proofimuts"))]
             )
     except Exception as e:
         LOGS.error(e)
