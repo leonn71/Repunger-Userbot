@@ -1,9 +1,9 @@
 {
-  "name": "𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
-  "description": "𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𝗕𝘆 @Muutya",
-  "logo": "https://telegra.ph/file/7881245cdf92e3b0c0d33-8e3772b60440d5e997.jpg",
-  "keywords": ["telegram", "userbot", "Mutya-Userbot", "modular", "python"],
-  "repository": "https://github.com/mutyya/Mutya-Userbot",
+  "name": "𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+  "description": "𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𝗕𝘆 @Sepondg",
+  "logo": "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg",
+  "keywords": ["telegram", "userbot", "Repunger-Userbot", "modular", "python"],
+  "repository": "https://github.com/leonn71/Repunger-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -15,7 +15,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di @strgen_bot",
+      "description": "Dapatkan String Session di @Stringsesi_bot",
       "required": true
     },
     "HEROKU_APP_NAME": {
