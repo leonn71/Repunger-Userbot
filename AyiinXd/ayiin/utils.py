@@ -1,4 +1,4 @@
-# repack by ixall. #
+# repack by blue. #
 
 import asyncio
 import importlib
@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿 - 𝗟𝗼𝗴𝘀.",
+                title="𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-Logs.",
                 about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
                 megagroup=True,
             ),
@@ -94,11 +94,11 @@ async def autobot():
     await bot.start()
     await asyncio.sleep(15)
     await bot.send_message(
-        BOTLOG_CHATID, "**currently creating your bot assistant at @botfather**"
+        BOTLOG_CHATID, "**creating your bot assistant at @botfather**"
     )
     LOGS.info("TUNGGU SEBENTAR SAYANG. SEDANG MEMBUAT ASSISTANT BOT UNTUK KAMU")
     who = await bot.get_me()
-    name = f"{who.first_name} Assistant Bot"
+    name = f"{who.first_name} Bot help"
     if who.username:
         username = f"{who.username}_bot"
     else:
@@ -180,7 +180,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**currently restarting userbot, if there are any problems please contact @sepondg**",
+                "**restarting userbot, if there are any problems please contact @sepondg!**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -224,7 +224,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**currently restarting userbot, if there are any problems please contact @sepondg**",
+            "**restarting userbot, if there are any problems please contact @sepondg!**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
