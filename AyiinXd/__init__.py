@@ -85,16 +85,13 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/mutyya/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/leonn71/deps/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
         DEVS = [
-            6192410835,
-            1790271498,
-            7693784979,
-            6947499229,
+            7951258595,
             2014998038,
             1331659203,
             1700405732,
@@ -177,8 +174,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "ixallsupport")
-CHANNEL = os.environ.get("CHANNEL", "jasebxall")
+GROUP = os.environ.get("GROUP", "Rekberrimut")
+CHANNEL = os.environ.get("CHANNEL", "proofimuts")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -192,7 +189,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/mutyya/Mutya-Userbot.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/leonn71/Repunger-Userbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -225,7 +222,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
@@ -254,17 +251,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
+              or "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
+              or "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg")
+             or "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg")
 
 DEFAULT = list(map(int, b64decode("Njk0NzQ5OTIyOQ==").split()))
 
@@ -304,7 +301,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/mutyya/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/leonn71/deps/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -321,7 +318,7 @@ gc = str(b64decode("QGltdXRzdXBwb3J0"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/mutyya/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/leonn71/deps/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -368,7 +365,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 v`{BOT_VER}` is back up and running!**\n\n"
+        f"**𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -465,8 +462,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
-                    "https://graph.org/file/84720ef5661bd405165f1-30d5d76ee9fd7ba578.jpg",
+                    "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg",
+                    "https://graph.org/file/bdb46f35663ee99bde2cc-b5bc37c79774d6d76f.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -577,7 +574,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n"
+                    f"**𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -610,7 +607,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -724,8 +721,8 @@ with bot:
             else:
                 result = builder.article(
                     title="apa kontol?",
-                    description="𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
-                    url="https://t.me/Muutya",
+                    description="𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    url="https://t.me/sepondg",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
@@ -736,10 +733,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/imutsupport"),
+                                "https://t.me/rekberrimut"),
                             custom.Button.url(
-                                "Store",
-                                "https://t.me/jasebimuut"),
+                                "Prood",
+                                "https://t.me/proofimuts"),
                         ],
                     ],
                     link_preview=False,
@@ -788,7 +785,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -1098,4 +1095,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @Muutya atau ke @imutsupport. 𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @sepondg atau ke @ixallsupport. 𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁 {BOT_VER}")
