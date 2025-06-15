@@ -334,7 +334,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Ixall-Userbot"
+    session = "repunger-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -728,14 +728,14 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗠𝘂𝘁𝘆𝗮-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
+                    text=f"𝗥𝗲𝗽𝘂𝗻𝗴𝗲𝗿-𝗨𝘀𝗲𝗿𝗯𝗼𝘁",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Support",
                                 "https://t.me/rekberrimut"),
                             custom.Button.url(
-                                "Prood",
+                                "Proof",
                                 "https://t.me/proofimuts"),
                         ],
                     ],
